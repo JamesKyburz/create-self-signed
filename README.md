@@ -2,6 +2,8 @@
 
 A Docker image that will create self signed certificates.
 
+<a href="https://asciinema.org/a/4s9cilquvukowdlzfqpetp371?autoplay=1"><img src="https://asciinema.org/a/4s9cilquvukowdlzfqpetp371.png" width="380"/></a>
+
 # usage
 
 ```sh
