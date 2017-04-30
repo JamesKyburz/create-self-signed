@@ -15,4 +15,4 @@ if [ ! -d /certs ]; then
   exit 1
 fi
 
-openssl req -x509 -sha256 -nodes -newkey rsa:4096 -keyout /certs/privkey.pem -out /certs/cert.pem -days 365 -subj '/CN=$CN' -config /etc/ssl/openssl.cnf -extensions SAN
+openssl req -x509 -sha256 -nodes -newkey rsa:4096 -keyout /certs/privkey.pem -out /certs/cert.pem -days 365 -subj "/CN=$CN" -config /etc/ssl/openssl.cnf -extensions SAN
