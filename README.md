@@ -13,6 +13,12 @@ docker run --rm \
   -v=$(pwd)/certs-output:/certs jameskyburz/create-self-signed:latest
 ```
 
+# why?
+
+All of my self signed certificates stopped working since the last OSX security update :(
+
+Also I wanted a single solution to be able to create certificates on OSX, Linux & Windows, docker to the rescue!
+
 Docker images hosted at https://hub.docker.com/r/jameskyburz/create-self-signed.
 
 If you want multiple values in ALTNAME seperate with a ,
