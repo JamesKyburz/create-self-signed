@@ -1,6 +1,6 @@
 from alpine:3.5
 
-maintainer James Kyburz <james.kyburz@gmail.com>
+label maintainer="James Kyburz james.kyburz@gmail.com"
 
 run apk --no-cache add openssl
 
