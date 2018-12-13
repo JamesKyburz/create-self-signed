@@ -1,4 +1,4 @@
-from alpine:3.5
+from alpine:3.8
 
 label maintainer="James Kyburz james.kyburz@gmail.com"
 
