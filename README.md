@@ -13,6 +13,15 @@ docker run --rm \
   -v=$(pwd)/certs-output:/certs jameskyburz/create-self-signed:latest
 ```
 
+## custom filenames
+
+```sh
+docker run --rm \
+  -e PRIVKEY_FILENAME='my_privkey.key' \
+  -e CERT_FILENAME='my_cert.pem' \
+  ...
+```
+
 # why?
 
 All of my self signed certificates stopped working since the last OSX security update :(
